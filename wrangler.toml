@@ -1,0 +1,9 @@
+name = "kindle-to-notion"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# 机密通过 wrangler secret 注入，不要写在这里：
+#   wrangler secret put TELEGRAM_BOT_TOKEN
+#   wrangler secret put TELEGRAM_WEBHOOK_SECRET
+#   wrangler secret put NOTION_TOKEN
+#   wrangler secret put NOTION_DATABASE_ID
